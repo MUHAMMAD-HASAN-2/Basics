@@ -1,0 +1,145 @@
+body{
+    background: rgb(177, 163, 163);
+}
+.a{
+    font-family: fantasy;
+    letter-spacing: 2px;
+    text-shadow: none;
+    color: darkcyan;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.a:hover{
+    
+    transition: .5s;
+   
+    text-shadow: 2px 2px purple;
+}
+.a {
+    display: inline-block;
+  }
+  
+  .a:after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: black;
+    transition: 300ms;
+  }
+  
+  .a:hover:after {
+    width: 100%;
+}
+
+.p1{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+.p1 { 
+    transition: all .3s ease-in-out; 
+    }
+    
+    .p1:hover { 
+    transform: scale(1.1); 
+    }
+.box1{
+    width: 400px;
+    height: 50px;
+    border: 2px solid rgba(135, 224, 236, 0.63);
+    text-align: center;
+    color: cadetblue;
+    font-family: sans-serif;
+    border-radius: 5px;
+    
+
+}
+.box1:hover{
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    background: #3d6777;
+    
+    
+}
+.p2{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 450px;
+   margin-top: -556.5px;
+}
+.p2 { 
+    transition: all .3s ease-in-out; 
+    }
+    
+    .p2:hover { 
+    transform: scale(1.1); 
+    }
+.box2{
+    width: 400px;
+    height: 50px;
+    border: 2px solid rgba(135, 224, 236, 0.63);
+    text-align: center;
+    color: cadetblue;
+    font-family: sans-serif;
+    border-radius: 5px;
+    margin-left: 450px;
+
+}
+.box2:hover{
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    background: #3d6777;
+    
+    
+}
+.p3{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 920px;
+   margin-top: -556.5px;
+}
+.p3 { 
+    transition: all .3s ease-in-out; 
+    }
+    
+    .p3:hover { 
+    transform: scale(1.1); 
+    }
+.box3{
+    width: 400px;
+    height: 50px;
+    border: 2px solid rgba(135, 224, 236, 0.63);
+    text-align: center;
+    color: cadetblue;
+    font-family: sans-serif;
+    border-radius: 5px;
+    margin-left: 920px;
+
+}
+.box3:hover{
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    background: #3d6777;
+    
+    
+}
