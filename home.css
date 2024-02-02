@@ -1,0 +1,66 @@
+.nav{
+    display:flex;
+    margin-left: 450px;
+    font-size: 25px;
+    font-family: cursive;
+    list-style-type: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.s{
+    margin-left: 20px;
+}
+
+.d{
+    margin-left: 20px;
+}
+
+.f{
+    margin-left: 20px;
+}
+
+.s:hover{
+    color: rgb(52, 184, 184);
+    
+}
+.a:hover{
+    color: rgb(52, 184, 184);
+}
+.f:hover{
+    color: rgb(52, 184, 184);
+}
+.d:hover{
+    color: rgb(52, 184, 184);
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  body{
+    background-image: url(qwe.jpg);
+    background-repeat: no-repeat;
+    
+  }
+
+  
