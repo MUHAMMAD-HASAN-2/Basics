@@ -58,9 +58,49 @@
   }
 
   body{
-    background-image: url(qwe.jpg);
+   
     background-repeat: no-repeat;
     
   }
 
+  .te{
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    margin-left: 800px;
+    background-image: url(8f367e5eb0a202bd32cb56678bd0a7d0.jpg);
+    margin-top: -510px;
+  }
+
+  .sw{
+    border: 4px solid black;
+    border-radius: 10px; 
+  }
+  .text{
+    width: 600px;
+    height: 500px;
+    margin-top: 60px;
   
+    margin-left: 10px;
+    
+
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  .qweq{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 200px;
+    width: 200px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgba(192, 62, 231, 0.822);
+  }
+  input:hover{
+   cursor:  pointer;
+    background-color: rgb(73, 5, 73) ;
+  }
