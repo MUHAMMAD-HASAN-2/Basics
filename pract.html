@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d1{
+            height: 200px;
+            width: 200px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">Hover me</div>
+
+    <script>
+        document.getElementById("d1").addEventListener('mouseover',function(){
+            this.textContent = "Aloo le lo";
+            this.style.backgroundColor = "green";
+        });
+        document.getElementById("d1").addEventListener('mouseout',function(){
+            this.textContent = "Bhaloo le lo";
+            this.style.backgroundColor = "red";
+        });
+    </script>
+</body>
+</html>
